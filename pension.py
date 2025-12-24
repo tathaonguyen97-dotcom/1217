@@ -1,5 +1,5 @@
 import sys
-st.write(sys.path)
+# st.write(sys.path)
 
 import streamlit as st
 import pandas as pd
@@ -268,5 +268,6 @@ if submitted:
             st.table(df_je.style.format({"Debit": "{:,.0f}", "Credit": "{:,.0f}"}))
 
         st.success("計算完成，已對齊 Excel Pension 範例的邏輯。")
+
 
 
